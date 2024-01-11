@@ -1,8 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import MyCardPerritoBlanco from "./componentes/mycard/MyCardPerritoBlanco";
-import MyCardPerritoPrincesa from "./componentes/mycard/MyCardPerritoGrande"
-import MyCardPerritoPeque from "./componentes/mycard/MyCardPerritoPeque"
-import MyCardPerritoGrande from "./componentes/mycard/MyCardPerritoGrande"
+import MyCardPerritoPrincesa from "./componentes/mycard/MyCardPerritoPrincesa";
+import MyCardPerritoPeque from "./componentes/mycard/MyCardPerritoPeque";
+import MyCardPerritoGrande from "./componentes/mycard/MyCardPerritoGrande";
+
 
 import "./App.css";
 
@@ -10,7 +11,7 @@ function App() {
   return (
     <>
       <div className='perritos-card'>
-      <MyCardPerritoBlanco />
+      <MyCardPerritoBlanco  />
         <MyCardPerritoPrincesa />
         <MyCardPerritoPeque />
         <MyCardPerritoGrande />

@@ -13,7 +13,7 @@ function MyCardPerritoPrincesa() {
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="danger">adopta aca</Button>
+        <Button variant="warning">adopta aca</Button>
       </Card.Body>
     </Card>
     
