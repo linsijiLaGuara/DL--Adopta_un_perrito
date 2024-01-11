@@ -42,3 +42,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.perritos-card {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
