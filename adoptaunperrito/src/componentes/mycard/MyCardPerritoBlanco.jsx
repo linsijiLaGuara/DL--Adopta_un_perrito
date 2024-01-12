@@ -11,7 +11,7 @@ function MyCardPerritoBlanco({ tags }) {
         {tags.map((tagName, index) => (
           <Card.Title key={index}>{tagName}</Card.Title>
         ))}
-        <Card.Text></Card.Text>
+        <Card.Text>Bartolo es un perrito lleno de energía y alegría. Con su pelaje suave y ojos tiernos, es el compañero perfecto para actividades al aire libre y largos paseos.!</Card.Text>
         <Button variant="success">Adóptame</Button>
       </Card.Body>
     </Card>

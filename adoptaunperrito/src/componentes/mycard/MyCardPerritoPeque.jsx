@@ -12,7 +12,7 @@ function MyCardPerritoPeque({ tags }) {
         {tags.map((tagName, index) => (
           <Card.Title key={index}>{tagName}</Card.Title>
         ))}
-        <Card.Text></Card.Text>
+        <Card.Text>Messi, un perrito juguetón y cariñoso, está listo para un nuevo hogar. Su pequeño tamaño es perfecto para adaptarse a cualquier estilo de vida, y siempre está listo para recibir mimos y jugar.</Card.Text>
         <Button variant="danger">Adóptame</Button>
       </Card.Body>
     </Card>
