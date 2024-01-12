@@ -2,7 +2,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Tags from "./componentes/tags/Tags";
 import Header from "./componentes/header/Header";
 import Footer from "./componentes/footer/Footer";
-
 import "./App.css";
 
 function App() {
