@@ -3,3 +3,10 @@
     font-size: 13px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.tags-flex {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+  }
+  
