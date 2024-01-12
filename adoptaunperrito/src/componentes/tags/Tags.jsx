@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from "react";
-import MyCardPerritoGrande from "../mycard/MyCardPerritoGrande";
+import MyCard from "../mycard/MyCard";
 import "./Tags.css"; // Asegúrate de importar tu hoja de estilos
 
 const Tags = ({ props }) => {
@@ -9,7 +9,7 @@ const Tags = ({ props }) => {
       <div className="tags-flex">
         {props.length &&
           props.map((tag) => (
-            <MyCardPerritoGrande
+            <MyCard
               key={tag.id}
               name={tag.name}
               description={tag.description}
