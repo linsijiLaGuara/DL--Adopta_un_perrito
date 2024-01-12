@@ -1,24 +1,21 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import img from '../../assets/img/perritoprincesa.jpg';
+/* eslint-disable react/prop-types */
 
-function MyCardPerritoPrincesa() {
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+import img from "../../assets/img/perritoprincesa.jpg";
+
+function MyCardPerritoPrincesa({ tags }) {
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: "18rem" }}>
       <Card.Img variant="top" src={img} />
-    
       <Card.Body>
-        <Card.Title>Perrito Blanco</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="warning">adopta aca</Button>
+        {tags.map((tagName, index) => (
+          <Card.Title key={index}>{tagName}</Card.Title>
+        ))}
+        <Card.Text></Card.Text>
+        <Button variant="warning">Adóptame</Button>
       </Card.Body>
     </Card>
-    
-
-
   );
 }
 
