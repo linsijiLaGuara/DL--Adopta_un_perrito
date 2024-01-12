@@ -8,7 +8,7 @@ const Tags = () => {
   return (
     <div>
       {tagsNames.map((tagName, index) => (
-        <h1 className="titulo" key={index}>
+        <h1 className="name" key={index}>
           {tagName}
         </h1>
         

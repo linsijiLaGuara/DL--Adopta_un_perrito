@@ -2,7 +2,7 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import img from "../../assets/img/perritogrande.jpg";
-
+import './MyCard.css';
 
 
 function MyCardPerritoGrande({ tags }) {
@@ -13,7 +13,7 @@ function MyCardPerritoGrande({ tags }) {
         {tags.map((tagName, index) => (
           <Card.Title key={index}>{tagName}</Card.Title>
         ))}
-        <Card.Text>Gohan, un perrito inteligente y activo, está listo para ser parte de tu familia. Su entusiasmo y lealtad hacen que sea el compañero ideal para alguien que ama la vida al aire libre.</Card.Text>
+        <Card.Text className="text">Gohan, un perrito inteligente y activo, está listo para ser parte de tu familia. Su entusiasmo y lealtad hacen que sea el compañero ideal para alguien que ama la vida al aire libre y siempre está listo para recibir mimos y jugar</Card.Text>
         <Button variant="primary">Adóptame</Button>
       </Card.Body>
     </Card>
